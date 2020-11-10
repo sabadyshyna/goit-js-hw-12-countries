@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 60px 20px 20px 20px;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Share Tech Mono', monospace;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 0.5);
+  letter-spacing: 0.05em;
+  font-size: 30px;
+}
+
+li {
+  list-style: square;
+}
+
+.title {
+  margin: 0 0 80px 0;
+}
+.input-search {
+  margin-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 10px;
+  height: 40px;
+  min-width: 300px;
+  border-radius: 20px;
+  border: transparent;
+  outline: none;
+  box-shadow: 0 0 20px rgba(10, 175, 230, 0.5);
+  font-size: 20px;
+}
+
+.js-card-container {
+  text-align: left;
+}
+
+.list-countries {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.list-countries p {
+  margin: 0;
+}
+
+.country-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.country-info {
+  margin-right: 20px;
+}
+.country-title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+}
